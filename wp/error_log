@@ -1,0 +1,20 @@
+[14-Feb-2024 14:35:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/ptainfra/public_html/wp/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/ptainfra/public_html/wp/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru('admin@ptainfra....', '=?us-ascii?Q?[M...', 'Howdy! Your sit...', 'Date: Wed, 14 F...', NULL)
+#1 /home/ptainfra/public_html/wp/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend('Date: Wed, 14 F...', 'Howdy! Your sit...')
+#2 /home/ptainfra/public_html/wp/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/ptainfra/public_html/wp/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/ptainfra/public_html/wp/wp-admin/includes/class-wp-automatic-updater.php(976): wp_mail(Array, '[My Blog] Your ...', 'Howdy! Your sit...', Array)
+#5 /home/ptainfra/public_html/wp/wp-admin/includes/class-wp-automatic-updater.php(639): WP_Automatic_Updater->send_email('success', Object(stdClass))
+#6 /home/ptainfra/public_html/wp/wp-admin/includes/class-wp-automatic-updater.php(606): WP_Automatic_Updater->after_core_update(Object(stdClass))
+#7 /home/ptainfra/public_html/wp/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/ptainfra/public_html/wp/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update('')
+#9 /home/ptainfra/public_html/wp/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#10 /home/ptainfra/public_html/wp/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /home/ptainfra/public_html/wp/wp-includes/update.php(292): do_action('wp_maybe_auto_u...')
+#12 /home/ptainfra/public_html/wp/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/ptainfra/public_html/wp/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#14 /home/ptainfra/public_html/wp/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#15 /home/ptainfra/public_html/wp/wp-cron.php(191): do_action_ref_array('wp_version_chec...', Array)
+#16 {main}
+  thrown in /home/ptainfra/public_html/wp/wp-includes/PHPMailer/PHPMailer.php on line 874
