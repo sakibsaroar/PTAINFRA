@@ -536,4 +536,16 @@ h6,
       .contain:hover .overlay {
         opacity: 1;
       }
-     
+     /**fire and safety**/
+     .boxred{
+
+        
+
+            border: solid black 1px  ;
+            border-radius: 10px 10px ;
+            background-color:#dd604f;
+            
+        
+        
+
+     }
