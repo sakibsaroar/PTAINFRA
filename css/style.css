@@ -549,3 +549,10 @@ h6,
         
 
      }
+.boxblue{
+
+    border: solid black 1px  ;
+    border-radius: 10px 10px ;
+    background-color:#b7c0d8;
+
+}
