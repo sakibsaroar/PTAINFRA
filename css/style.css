@@ -556,3 +556,16 @@ h6,
     background-color:#b7c0d8;
 
 }
+
+.box{
+border: solid black 1px;
+
+min-height: 300px;
+
+}
+
+
+.home{
+    min-height: 150px;
+  text-align: center;
+}
