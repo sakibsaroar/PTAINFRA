@@ -569,3 +569,13 @@ min-height: 300px;
     min-height: 150px;
   text-align: center;
 }
+.cv1{
+    min-height: 250px;
+    font-size: 100px;
+    color:black;
+}
+.cv2{
+    min-height: 250px;
+    font-size: 100px;
+    color:black ;
+}
