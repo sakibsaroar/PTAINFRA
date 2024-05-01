@@ -65,6 +65,10 @@
     visibility: visible;
     opacity: 1;
 }
+/***PARAGRAPH ***/
+P{
+   text-align:justify;
+}
 
 
 /*** Heading ***/
