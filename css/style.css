@@ -137,6 +137,23 @@ h6,
 
 
 /*** Navbar ***/
+
+  @media (max-width: 768px) {
+    .navbar-brand span {
+      font-size: 16px; /* Adjust for smaller screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .navbar-brand span {
+      font-size: 14px; /* Adjust for even smaller screens (optional) */
+    }
+  }
+  
+
+
+
+
 .navbar-dark .navbar-nav .nav-link {
     font-family: 'Nunito', sans-serif;
     position: relative;
@@ -152,6 +169,7 @@ h6,
 .sticky-top.navbar-dark .navbar-nav .nav-link {
     padding: 20px 0;
     color: var(--dark);
+    
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
